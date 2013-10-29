@@ -15,7 +15,7 @@ namespace :install do
 
   task :zsh do
     puts 'Installing Zsh'
-    sh "shudo apt-get install zsh -y"
+    sh "sudo apt-get install zsh -y"
     if File.exist? home_dir '.zshrc'
       sh "mv ~/.zshrc ~/.zshrc.orig"
     end
