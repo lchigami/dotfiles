@@ -50,7 +50,7 @@ namespace :install do
   end
 
   task :git do
-    puts 'Configure git' 
+    puts 'Configure git'
     platform = osx? ? 'osx' : 'linux'
     sh "ln -s #{current_dir}/gitconfig/gitconfig_#{platform} ~/.gitconfig"
     sh "ln -s #{current_dir}/gitconfig/gitignore ~/.gitignore"
