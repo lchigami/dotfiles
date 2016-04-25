@@ -32,7 +32,6 @@ OBS: of course you will need ruby and rake for this.
 - tComment
 - Syntastic
 - supertab
-- simple-pairs
 - buferexplorer
 - sparkup
 - surround
